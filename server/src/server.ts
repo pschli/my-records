@@ -1,6 +1,9 @@
 import express from "express";
 import type { Request, Response } from "express";
 
+const USER = process.env.USER;
+const PW = process.env.PW;
+
 const app = express();
 app.use(express.json());
 
