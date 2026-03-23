@@ -1,0 +1,60 @@
+ba# Dependencies
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build outputs
+dist/
+build/
+out/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# Client build (Vite / React)
+client/dist/
+
+# Server build
+server/dist/
+
+# Optional: if using Next.js or similar in the future
+.next/
+
+# Optional lock files if you want (usually keep them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
